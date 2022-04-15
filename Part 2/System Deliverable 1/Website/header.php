@@ -1,3 +1,3 @@
 <header>
-	<h1>Teddy Bears R Us - 12IPT</h1>
+	<h1>SPX Physics Online</h1>
 </header>
