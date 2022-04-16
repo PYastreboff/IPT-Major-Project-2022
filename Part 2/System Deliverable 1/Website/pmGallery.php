@@ -10,74 +10,25 @@
 			require('nav.php');
 		?>
 		<maincontent>
-
-            <!-- Images used to open the lightbox -->
-<div class="row">
-  <div class="column">
-    <img src=".jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-  </div>
-</div>
-
-<!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="img1_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="img2_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="img3_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="img4_wide.jpg" style="width:100%">
-    </div>
-
-    <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <!-- Caption text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-    <!-- Thumbnail image controls -->
-    <div class="column">
-      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
-    </div>
-  </div>
-</div>
-
-		</maincontent>
-		<?php require('footer.php'); ?>
-		</body>
+            <div class="galleryRow">
+                <div class="galleryColumn">
+                    <img src="img/proj_motion/img1.jpg">
+                    <img src="img/proj_motion/img2.jpg">
+                </div>
+                <div class="galleryColumn">
+                    <img src="img/proj_motion/img3.jpg">
+                    <img src="img/proj_motion/img4.jpg">
+                </div>
+                <div class="galleryColumn">
+                    <img src="img/proj_motion/img5.jpg">
+                    <img src="img/proj_motion/img6.jpg">
+                </div>
+                <div class="galleryColumn">
+                    <img src="img/proj_motion/img7.jpg">
+                    <img src="img/proj_motion/img8.jpg">
+                </div>
+            </div>
+        </maincontent>
+        <?php require('footer.php'); ?>
+    </body>
 </html>
