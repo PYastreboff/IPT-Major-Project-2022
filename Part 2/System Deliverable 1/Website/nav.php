@@ -1,3 +1,5 @@
+
+
 <nav>
 	<div class="topnav" id="myTopnav">
 		<a href="index.php" class="active">Home</a>
@@ -8,9 +10,9 @@
 				<i class="fa fa-caret-down"></i>
 			</button>
 			<div class="dropdown-content">
-				<a href="#">Info</a>
-				<a href="#">Image Gallery</a>
-				<a href="#">Video</a>
+				<a href="pminfo.php">Text Info</a>
+				<a href="pmGallery.php">Image Gallery</a>
+				<a href="pmVideo.php">Video</a>
 			</div>
 		</div> 
 
@@ -20,9 +22,9 @@
 				<i class="fa fa-caret-down"></i>
 			</button>
 			<div class="dropdown-content">
-				<a href="#">Info</a>
-				<a href="#">Image Gallery</a>
-				<a href="#">Video</a>
+				<a href="cmInfo.php">Text Info</a>
+				<a href="cmGallery.php">Image Gallery</a>
+				<a href="cmVideo.php">Video</a>
 			</div>
 		</div> 
 
@@ -32,7 +34,7 @@
 				<i class="fa fa-caret-down"></i>
 			</button>
 			<div class="dropdown-content">
-				<a href="#">Info</a>
+				<a href="#">TextInfo</a>
 				<a href="#">Image Gallery</a>
 				<a href="#">Video</a>
 			</div>

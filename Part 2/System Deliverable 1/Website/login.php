@@ -52,29 +52,24 @@ if ($method == "POST") {
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>SPX Physics Online - Login page</title>
-        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Load Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-        <!-- This is MY stylesheet - it comes last -->
-        <link rel="stylesheet" href="css/style.css">
-	</head>
+	<?php require('head.php'); ?>
 	<body>
 		<?php
 			require('header.php');
-			require('nav.php');
+			//require('nav.php');
 		?>
 		<maincontent class="loginBox">
 			<h1>Login Page</h1>
 			<p>Please Login to SPX Physics Online</p>
 			<form class="loginForm" name="login" action="" method="POST">
-				<h2>Username</h2>
-				<input type="text" required name="userName"></input>
-				<h2>Password</h2>
-				<input type="password" required name="password"></input>
+				<div class="input-container">
+					<input type="text" name="userName" required></input>
+					<label>Username</label>		
+				</div>
+				<div class="input-container">		
+					<input type="password" name="password" required></input>
+					<label>Password</label>
+				</div>
 				<div class="loginButtonBox">
 					<button type="reset">Reset</button>
 					<button type="submit">Login</button>
