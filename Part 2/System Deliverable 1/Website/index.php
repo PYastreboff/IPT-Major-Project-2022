@@ -13,7 +13,7 @@
 			<div class="homeContent">
 				<h1>SPX Physics Online Home Page</h1>
 				<h2>Welcome to SPX Physics Online</h2>
-				<p>This Website will help you revise/learn for the content in the HSC Physics <u>Advanced Mechanics</u> Unit</p>
+				<p>This Website will help you revise/learn for the content in the HSC Physics <b>Advanced Mechanics</b> Unit</p>
 				<p>This includes the subtopics of:</p>
 				<ul>
 					<li><a href="pmInfo.php">Projectile Motion</a></li>

@@ -11,7 +11,7 @@
 		?>
 		<maincontent>
 			<div class="homeContent">
-				<h1>THis Subtopic/Page is Coming Soon</h1>
+				<h1>This Subtopic/Page is Coming Soon</h1>
 			</div>
 		</maincontent>
 		<?php require('footer.php'); ?>
