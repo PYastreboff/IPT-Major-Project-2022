@@ -36,6 +36,8 @@ if ($method == "POST") {
 				while (mysqli_stmt_fetch($stmt)) {
 					$message = "login successfully completed. Welcome ".$firstName.' '.$lastName;
 					$_SESSION["userName"] = $userName;
+					$_SESSION["firstName"] = $firstName;
+					$_SESSION["lastName"] = $lastName;
 					$_SESSION["footerText"] = "Current User: ".$userName." (".$firstName." ".$lastName.")";
 					$footerText = $_SESSION["footerText"];
 

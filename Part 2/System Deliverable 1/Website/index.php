@@ -12,8 +12,8 @@
 		<maincontent>
 			<div class="homeContent">
 				<h1>SPX Physics Online Home Page</h1>
-				<h2>Welcome to SPX Physics Online</h2>
-				<p>This Website will help you revise/learn for the content in the HSC Physics <b>Advanced Mechanics</b> Unit</p>
+				<h2>Welcome to SPX Physics Online, <?php echo($_SESSION["firstName"]." ".$_SESSION["lastName"]); ?></h2>
+				<p>This Website will help you revise/learn for the content in the HSC Physics <b>Advanced Mechanics</b> Unit.</p>
 				<p>This includes the subtopics of:</p>
 				<ul>
 					<li><a href="pmInfo.php">Projectile Motion</a></li>
@@ -29,7 +29,7 @@
 					explained and analysed relatively simply. However, motion is frequently more 
 					complicated because the net force on objects can vary in size and direction, 
 					causing objects to move in two or three dimensions. 
-					In this Website, you will develop an understanding that all forms of complex 
+					In this website, you will develop an understanding that all forms of complex 
 					motion can be understood by analysing the forces acting on a system, including 
 					the energy transformations taking place within and around the system. By 
 					applying new mathematical techniques, you will model and predict the motion 
