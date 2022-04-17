@@ -10,10 +10,10 @@
 			require('nav.php');
 		?>
 		<maincontent>
-		<h1>Home Page</h1>
-		<p>Welcome to my Teddy bears website<p>
-
-		
+			<h1 class="videoTitle">Projectile Motion Video</h1>
+			<div class="videoContainer">
+				<iframe class="responsive-iframe" width="878" height="494" src="https://www.youtube.com/embed/aY8z2qO44WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 		</maincontent>
 		<?php require('footer.php'); ?>
 		</body>

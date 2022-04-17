@@ -10,13 +10,14 @@
 			require('nav.php');
 		?>
 		<maincontent>
+            <h1 class="galleryTitle">Projectile Motion Image Gallery</h1>
             <div class="galleryRow">
                 <div class="galleryColumn">
                     <img id="img1" onclick="openModal(this.src, this.alt)" alt="This Motorbike is Undergoing Projectile Motion" src="img/proj_motion/img1.jpg">
                     <img id="img2" onclick="openModal(this.src, this.alt)" alt="This Basketball is Undergoing Projectile Motion" src="img/proj_motion/img2.jpg">
                 </div>
                 <div class="galleryColumn">
-                    <img id="img3" onclick="openModal(this.src, this.alt)" alt="This Basketball is Undergoing Projectile Motion" src="img/proj_motion/img3.jpg">
+                    <img id="img3" onclick="openModal(this.src, this.alt)" alt="A Basketball Undergoes Projectile Motion" src="img/proj_motion/img3.jpg">
                     <img id="img4" onclick="openModal(this.src, this.alt)" alt="A Cannon Fires a Projectile" src="img/proj_motion/img4.jpg">
                 </div>
                 <div class="galleryColumn">
@@ -32,8 +33,8 @@
             <!-- The Modal -->
             <div id="modal" class="modal">
                 <span onclick="javascript:closeModal()" class="close">&times;</span>
-                <img class="modal-content" src="img/proj_motion/img8.jpg" id="modalImg">
-                <div id="caption">Image Test</div>
+                <img class="modal-content" src="img/proj_motion/img1.jpg" alt="Projectile Motion Image" id="modalImg">
+                <div id="caption">This Motorbike is Undergoing Projectile Motion</div>
                 <a class="prev" onclick="changeModalImage(-1, 8)">&#10094;</a>
                 <a class="next" onclick="changeModalImage(1, 8)">&#10095;</a>
             </div>

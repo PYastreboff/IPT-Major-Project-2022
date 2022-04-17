@@ -34,9 +34,9 @@
 				<i class="fa fa-caret-down"></i>
 			</button>
 			<div class="dropdown-content">
-				<a href="#">TextInfo</a>
-				<a href="#">Image Gallery</a>
-				<a href="#">Video</a>
+				<a href="comingSoon.php">TextInfo</a>
+				<a href="comingSoon.php">Image Gallery</a>
+				<a href="comingSoon.php">Video</a>
 			</div>
 		</div> 
 
@@ -46,8 +46,8 @@
 				<i class="fa fa-caret-down"></i>
 			</button>
 			<div class="dropdown-content">
-				<a href="#">Quiz</a>
-				<a href="#">Video</a>
+				<a href="comingSoon.php">Quiz</a>
+				<a href="comingSoon.php">Video</a>
 			</div>
 		</div>
 
