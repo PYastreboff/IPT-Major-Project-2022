@@ -601,6 +601,7 @@ header h1 {
 .quizResult {
   margin: 1.2rem;
   margin-top: 1.8rem;
+  margin-left: 1.8rem;
 }
 
 .quizSubmit {
@@ -609,8 +610,9 @@ header h1 {
   color: white;
   padding: 1rem;
   border-radius: 1rem;
-  width: 100%;
+  width: 55%;
   cursor: pointer;
+  margin: .3rem;
   margin-top: 1.5rem;
   font-size: large;
 } .quizSubmit:hover {
@@ -625,8 +627,10 @@ header h1 {
   border-radius: 1rem;
   width: 100%;
   cursor: pointer;
-  margin-top: .1rem;
+  margin: .2rem;
+  margin-top: 1.5rem;
   font-size: large;
+  width: 40%;
 } .quizReset:hover {
   background-color: #cb1818;
 }
@@ -634,7 +638,7 @@ header h1 {
 .correct, .incorrect {
   font-size: medium;
   font-weight: 300;
-  margin: .2rem;
+  margin: .3rem;
   margin-top: 0px;
 }
 
@@ -644,4 +648,9 @@ header h1 {
 
 .incorrect {
   color: red;
-}  
+}
+
+.buttonRow td {
+  display: flex;
+  justify-content: space-between;
+}

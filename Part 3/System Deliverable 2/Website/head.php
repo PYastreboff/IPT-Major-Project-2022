@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Load Script files -->
-    <script src="js/confetti.js"></script>
     <script src="js/script.js"></script>
-    
+
     <!-- This is MY stylesheet - it comes last -->
     <link rel="stylesheet" href="css/style.css">
 </head>

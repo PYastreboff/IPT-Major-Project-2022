@@ -280,8 +280,10 @@ FUNCTION checkQuiz($quizLength,$answers,$correctAnswers) {
 					</tr>
 					<tr><td class="markMessage"><?php echo($messages[$i++]); ?></td></tr>
 
-					<tr><td><button class="quizSubmit" onclick="" type="submit" name="quizSubmit">Submit Answers</td></tr>
-					<tr><td><button class="quizReset" onclick="resetQuiz()" type="reset" name="quizReset">Reset Quiz</td></tr>
+					<tr class="buttonRow">
+						<td><button class="quizSubmit" onclick="" type="submit" name="quizSubmit">Submit Answers
+						<button class="quizReset" onclick="resetQuiz()" type="reset" name="quizReset">Reset Quiz</td>
+					</tr>
 				</table>	
 			</form>
 			<h3 id="qr" class="quizResult"><?php echo($message); ?></h3>
