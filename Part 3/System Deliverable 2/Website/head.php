@@ -5,12 +5,10 @@
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Load Script file -->
+    <!-- Load Script files -->
+    <script src="js/confetti.js"></script>
     <script src="js/script.js"></script>
     
-    <!-- Bootstrap -->
-    
-
     <!-- This is MY stylesheet - it comes last -->
     <link rel="stylesheet" href="css/style.css">
 </head>

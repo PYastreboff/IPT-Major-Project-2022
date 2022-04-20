@@ -547,6 +547,101 @@ header h1 {
   margin-left: 1rem;
 }
 
-.quizTitle {
+.quizTable {
   margin: 1rem;
+  min-width: 40%;
 }
+
+.answersBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.answersBox input[type="radio"] {
+  display: none;
+  position: relative;
+}
+
+.answersBox input[type="radio"] {
+  display: none;
+  position: relative;
+}
+
+.answersBox input[type="radio"] + label {
+  padding: .5rem;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  margin: .2rem .5rem .2rem .2rem;
+  border-radius: .3rem;
+}
+
+.answersBox input[type="radio"] + label:hover {
+  background-color: rgb(202, 202, 202);
+  cursor: pointer;
+}
+
+.answersBox input[type="radio"]:checked + label {
+  background: linear-gradient(
+      180deg,
+      rgba(139, 47, 184, 1) -300%,
+      rgba(103, 88, 205, 1) 0%,
+      rgba(89, 116, 219, 1) 300%
+  );
+  color: white;
+}
+
+.questionTitle {
+  margin: 1.5rem 0rem .2rem .2rem;
+}
+
+.quizMainTitle, .quizSubTitle {
+  margin-left: 1rem;
+}
+
+.quizResult {
+  margin: 1.2rem;
+  margin-top: 1.8rem;
+}
+
+.quizSubmit {
+  border: none;
+  background-color: #2e5bc4;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  font-size: large;
+} .quizSubmit:hover {
+  background-color: #1142b5;
+}
+
+.quizReset {
+  border: none;
+  background-color: #2e5bc4;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  cursor: pointer;
+  margin-top: .1rem;
+  font-size: large;
+} .quizReset:hover {
+  background-color: #cb1818;
+}
+
+.correct, .incorrect {
+  font-size: medium;
+  font-weight: 300;
+  margin: .2rem;
+  margin-top: 0px;
+}
+
+.correct {
+  color: rgb(0, 182, 0);
+}
+
+.incorrect {
+  color: red;
+}  
