@@ -11,6 +11,7 @@
 		?>
 		<maincontent>
             <h1 class="galleryTitle">Projectile Motion Image Gallery</h1>
+            <h2 class="gallerySubTitle">Click on Images to View A Modal</h2>
             <div class="galleryRow">
                 <div class="galleryColumn">
                     <img id="img1" onclick="openModal(this.src, this.alt)" alt="This Motorbike is Undergoing Projectile Motion" src="img/proj_motion/img1.jpg">

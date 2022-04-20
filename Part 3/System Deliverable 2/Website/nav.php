@@ -44,8 +44,8 @@
 				<i class="fa fa-caret-down"></i>
 			</button>
 			<div class="dropdown-content">
-				<a href="comingSoon.php">Quiz</a>
-				<a href="comingSoon.php">Video</a>
+				<a href="quiz.php">Quiz</a>
+				<a href="summaryVideo.php">Video</a>
 			</div>
 		</div>
 

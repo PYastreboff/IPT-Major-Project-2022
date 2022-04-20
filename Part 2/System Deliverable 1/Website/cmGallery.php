@@ -11,6 +11,7 @@
 		?>
 		<maincontent>
             <h1 class="galleryTitle">Circular Motion Image Gallery</h1>
+            <h2 class="gallerySubTitle">Click on Images to View A Modal</h2>
             <div class="galleryRow">
                 <div class="galleryColumn">
                     <img id="img1" onclick="openModal(this.src, this.alt)" alt="Ferris Wheels Undergo Circular Motion" src="img/circular_motion/img1.jpg">

@@ -171,7 +171,7 @@
                 The escape velocity is given by the equation:
             </div>
             <div class="formulaBox">
-                <div class="formulaRow"><img src="img/info_icon.png"/><h1>v = &radic;(<sup>2GM</sup>/<sub>r</sub>)</h1></div>
+                <div class="formulaRow"><img src="img/info_icon.png"/><h1>v = <b>&radic;</b>(<sup>2GM</sup>/<sub>r</sub>)</h1></div>
                 <h2>Where:</h2>
                 <h3><b>v</b> is escape velocity</h3>
                 <h3><b>M</b> is the central mass</h3>

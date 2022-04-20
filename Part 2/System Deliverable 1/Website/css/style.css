@@ -540,3 +540,9 @@ header h1 {
 .homeContent {
   margin: 1.5rem;
 }
+
+.gallerySubTitle {
+  font-size: medium;
+  font-weight: 300;
+  margin-left: 1rem;
+}
