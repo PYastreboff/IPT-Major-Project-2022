@@ -562,3 +562,11 @@ header h1 {
     align-self: center;
   }
 }
+
+.loginErrorMessage {
+  color: red;
+  font-size: medium;
+  text-justify: center;
+  justify-self: center;
+  align-self: center;
+}

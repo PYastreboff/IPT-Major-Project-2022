@@ -10,7 +10,7 @@ $footerText = $_SESSION["footerText"];
 
 require("dbconnect.php");
 
-$message = "Please login";
+$message = "";
 $method  = $_SERVER["REQUEST_METHOD"];
 
 if ($method == "POST") {
@@ -23,7 +23,7 @@ if ($method == "POST") {
 		$conn = getConn();
 		$sql = "SELECT u.firstName, u.lastName FROM users AS u WHERE u.userName=? AND u.password=?";
 		$stmt = mysqli_stmt_init($conn);
-		$message = "Error: Login unsuccessfully attempted. Try Again";
+		$message = "Error, Please Try Again";
 		if (mysqli_stmt_prepare($stmt, $sql)) {
 			mysqli_stmt_bind_param($stmt, "ss", $userName, $password);
 			mysqli_stmt_execute($stmt);
@@ -62,7 +62,7 @@ if ($method == "POST") {
 		?>
 		<maincontent class="loginBox">
 			<h1>Login Page</h1>
-			<p>Please Login to SPX Physics Online</p>
+			<p>Login to SPX Physics Online</p>
 			<form class="loginForm" name="login" action="" method="POST">
 				<div class="input-container">
 					<input type="text" name="userName" required></input>
@@ -75,6 +75,7 @@ if ($method == "POST") {
 				<div class="loginButtonBox">
 					<button type="reset">Reset</button>
 					<button type="submit">Login</button>
+					<h1 class="loginErrorMessage"><?php echo($message); ?></h1>
 				</div>
 			</form>
 		</maincontent>

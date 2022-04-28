@@ -9,7 +9,7 @@ Connecting/Setting up the Database:
 * Database User for this Assignment:  
         Username: yast03  
         Password: password  
-* The project will be submmitted as a GitHub Repository or on **\\spx-webtest-s01\2022\YAST03\SPXPhysicsOnline\Deliverable1**  
+* The project will be submmitted as a GitHub Repository or on **\\spx-webtest-s01\2022\YAST03\SPXPhysicsOnline_IPTMajor\Deliverable1**  
     
 Login to the System:  
     Test Users:  

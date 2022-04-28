@@ -60,7 +60,7 @@ FUNCTION checkQuiz($quizLength,$answers,$correctAnswers) {
 	$total = 0;
 	for ($x=0; $x< $quizLength; $x++) {
 		$n = $x + 1;
-		$q = "q".$n; //q1
+		$q = "q".$n;
 		
 		if ($answers[$q] == $correctAnswers[$q]) {
 			$messages[$x] = '<h1 class="correct mark">&#10003; Question '.$n.': Your answer ('.$answers[$q].') is correct!</h1>';
@@ -103,7 +103,7 @@ FUNCTION checkQuiz($quizLength,$answers,$correctAnswers) {
 						<label for="q1c">C - Universal Content Management</label>
 
 						<input type="radio" name="q1" id="q1d" value="D"></input>
-						<label for="q1d">D - Universal Content Management</label>
+						<label for="q1d">D - Uptown Call Mate</label>
 						</div></td>
 					</tr>
 					<tr><td class="markMessage"><?php echo($messages[$i++]); ?></td></tr>
