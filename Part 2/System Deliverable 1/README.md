@@ -25,7 +25,8 @@ Login to the System:
            Password: password   
   
 Using the System:  
-* You will be logged in to the home page  
-* from there you can explore topics under the HSC Physics unit of Advanced Mechanics and see the various multimedia elements
+* You will be logged in to the home page   
+* from there you can explore topics under the HSC Physics unit of Advanced Mechanics and see the various multimedia elements  
+* It is to be noted that in this release (Phase 1/Deliverable 1) the "Motion in Gravitational Fields" and "Summary" topics are not released yet  
 
 Have Fun :)  
