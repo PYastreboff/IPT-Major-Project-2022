@@ -13,14 +13,14 @@
 			<div class="homeContent">
 				<h1>SPX Physics Online Home Page</h1>
 				<h2>Welcome to SPX Physics Online, <?php echo($_SESSION["firstName"]." ".$_SESSION["lastName"]); ?></h2>
-				<p>This Website will help you revise/learn for the content in the HSC Physics <b>Advanced Mechanics</b> Unit.</p>
+				<p>This website will help you revise/learn for the content in the HSC Physics <b>Advanced Mechanics</b> Unit.</p>
 				<p>This includes the subtopics of:</p>
 				<ul>
 					<li><a href="pmInfo.php">Projectile Motion</a></li>
 					<li><a href="cmInfo.php">Circular Motion</a></li>
 					<li><a href="migInfo.php">Motion In a Gravitational Field (Motion In Gravity)</a></li>
 				</ul>
-				<p>A Summary of Advanced Mechanics is Also Included:</p>
+				<p>A Summary of Advanced Mechanics is also included:</p>
 				<ul>
 					<li><a href="summaryVideo.php">Summary</a></li>
 				</ul>

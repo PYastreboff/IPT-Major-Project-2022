@@ -49,7 +49,7 @@
 			</div>
 		</div>
 
-		<a href="login.php">Logout</a>
+		<a href="login.php" class="lg">Logout</a>
 
 		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="changeNav()">&#9776;</a>
 	</div>

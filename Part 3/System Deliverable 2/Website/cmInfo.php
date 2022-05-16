@@ -53,7 +53,7 @@
                 <h3><b>Δθ</b> is the change in angle</h3>
                 <h3><b>t</b> is time</h3>
             </div>
-            <div class="subTitle">Centripedal Acceleration</div>
+            <div class="subTitle">Centripetal Acceleration</div>
             <div class="info">
                 Since the velocity of the object is changing, it is accelerating even though its 
                 speed is not changing. The object is continually deviating inwards from its straight line direction and so has an acceleration towards the centre of its motion. This 

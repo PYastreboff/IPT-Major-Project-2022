@@ -94,6 +94,10 @@ maincontent {
   display: block;
 }
 
+a.lg:hover {
+  background-color: #3672ff;
+}
+
 @media screen and (max-width: 758px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -103,9 +107,7 @@ maincontent {
     float: right;
     display: block;
   }
-}
 
-@media screen and (max-width: 758px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -129,6 +131,7 @@ maincontent {
     text-align: left;
   }
 }
+
 
 footer {
   display: block;
@@ -364,7 +367,7 @@ header h1 {
 }
 
 .stars {
-  background:#000 url(../img/header/stars.png) repeat top center;
+  background:#000 url(../img/header/stars_large.png) repeat top center;
   z-index: 0;
 }
 
