@@ -27,7 +27,7 @@
 				<a href="cmVideo.php">Video</a>
 			</div>
 		</div> 
-
+		<!--
 		<div class="dropdown">
 			<button class="dropbtn">
 				Motion in Gravity
@@ -50,6 +50,7 @@
 				<a href="comingSoon.php">Video</a>
 			</div>
 		</div>
+		-->
 
 		<a href="login.php">Logout</a>
 

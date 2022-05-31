@@ -18,12 +18,16 @@
 				<ul>
 					<li><a href="pmInfo.php">Projectile Motion</a></li>
 					<li><a href="cmInfo.php">Circular Motion</a></li>
-					<li><a href="comingSoon.php">Motion In a Gravitational Field (Motion In Gravity)</a></li>
+					<!-- <li><a href="comingSoon.php">Motion In a Gravitational Field (Motion In Gravity)</a></li> -->
 				</ul>
-				<p>A Summary of Advanced Mechanics is Also Included:</p>
+				<!-- <p>A Summary of Advanced Mechanics is Also Included:</p>
 				<ul>
 					<li><a href="comingSoon.php">Summary</a></li>
-				</ul>
+				</ul> -->
+				<p>
+					Welcome Audio Message:
+				</p>
+				<audio controls><source src="/aud/welcome.mp3" type="audio/mpeg">This audio is not supported by your browser.</audio>
 				<p>
 					Motion in one dimension at constant velocity or constant acceleration can be 
 					explained and analysed relatively simply. However, motion is frequently more 

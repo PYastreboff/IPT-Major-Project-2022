@@ -25,6 +25,10 @@
 					<li><a href="summaryVideo.php">Summary</a></li>
 				</ul>
 				<p>
+					Welcome Audio Message:
+				</p>
+				<audio controls><source src="aud/welcome.mp3" type="audio/mpeg">This audio is not supported by your browser.</audio>
+				<p>
 					Motion in one dimension at constant velocity or constant acceleration can be 
 					explained and analysed relatively simply. However, motion is frequently more 
 					complicated because the net force on objects can vary in size and direction, 
